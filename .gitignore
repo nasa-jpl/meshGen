@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Except:
+!.git
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!requirements.txt
+
+!FSI_materialProps_v*_for_release.xlsx
+!meshGen_parachuteDGB.py
+!meshGen_parachuteRingsail.py
+!meshGen_parachuteUtils.py
+!meshGen_utils.py
+!requiremens.txt
+!runMeshGen.py
+!config.sh
+
+!input
+!input/msl_mesh_cubit.stl
+!input/aspire_mesh_cubit.stl
