@@ -9,7 +9,7 @@
 !LICENSE
 !requirements.txt
 
-!FSI_materialProps_v*_for_release.xlsx
+!FSI_materialProps_v*_for_distribution.xlsx
 !meshGen_parachuteDGB.py
 !meshGen_parachuteRingsail.py
 !meshGen_parachuteUtils.py
