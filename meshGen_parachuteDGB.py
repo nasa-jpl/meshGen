@@ -40,7 +40,7 @@ class ParachuteClass:
     """
     def __init__(self):
 
-        self.excelInputFilename = "FSI_materialProps_v11_for_distribution.xlsx"
+        self.excelInputFilename = "FSI_materialProps_v12_for_distribution.xlsx"
         self.excelInputSheetname = "ASPIRE_SR02"
         self.param = {}                 # parameters defining parachute
         self.mesh = {}                  # meshio representation
