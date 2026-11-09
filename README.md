@@ -4,7 +4,8 @@
 - Also includes the ability to run user-defined modules to create parametric meshes
   - meshGen_parachuteDGB.py is an example where gmsh is used to create parametrically a DGB parachute mesh
     - Note this has examples of writing more output files for AERO-S, including frames, decomposition, etc.
-  - Users can create additional modules (and update the calling in the runMeshGen.py script) for other systems
+  - Users can create additional modules (and update the calling in the runMeshGen.py script) for other problems of interest
+- Note that some functions (like converting .top files to .exo format for viewing in Paraview) use a shell script to run AERO-S or XP2EXO utilities in the AERO suite. The assumption is that the user has built these tools, and that sourcing the config.sh file will enable them to be used via the environment variables as noted in the functions calling them. If the user has not built AERO and/or adjusted the config.sh file appropriately for their setup, then it is likely these will not run (but should be caught by the try/except block to fail gracefully). 
 
 ## Usage
 - Use "pip install -r requirements.txt" to make sure all required packages are installed
